@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.UserInfoPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#FFFFFF"
+             Title="UserInfoPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                Source="icon_dark"
+                WidthRequest="50"
+                Margin="25, 20, 0, 70"
+                HorizontalOptions="Start"/>
+
+            <Label
+                Text="What is your name?"
+                TextColor="#2F2F2F"
+                FontFamily="Itim"
+                FontSize="28"
+                HorizontalOptions="Center"/>
+
+            <Entry
+                Placeholder="Name"
+                HorizontalOptions="Center"
+                TextColor="#2F2F2F"
+                x:Name="nomeUser"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

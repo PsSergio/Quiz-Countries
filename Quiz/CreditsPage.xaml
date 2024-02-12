@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.CreditsPage"
+              Shell.NavBarIsVisible="False"
+             BackgroundColor="#FFFFFF"
+             Title="CreditsPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                Source="icon_dark"
+                WidthRequest="50"
+                Margin="25, 20, 0, 70"
+                HorizontalOptions="Start"/>
+            <Label 
+                Text="Credits"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Itim"
+                FontSize="40"
+                Margin="0, 0, 0, 100"
+                TextColor="#2F2F2F"/>
+            <Label 
+                Text="Programmer"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Itim"
+                FontSize="25"
+                TextColor="#2F2F2F"/>
+             <Label 
+                Text="Designer"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Itim"
+                FontSize="25"
+                TextColor="#2F2F2F"/>
+
+            <Label 
+                Text="Paulo Sergio"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Itim"
+                FontSize="25"
+                Margin="0, 30, 0, 100"
+                TextColor="#2F2F2F"/>
+
+            <Button
+                x:Name="btnBack"
+                Text="Back"
+                Clicked="btnBack_Clicked"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

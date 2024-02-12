@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#FFFFFF"
+             x:Class="Quiz.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="logo_dark"
+                HeightRequest="170"
+                Margin="0, 0, 0, 150"/>
+
+            <Button
+                x:Name="btnStart"
+                Clicked="btnStart_Clicked"
+                Text="Start"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"/>
+
+            <Button
+                x:Name="btnCredits"
+                Clicked="btnCredits_Clicked"
+                Text="Credits"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, -15, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"/>
+
+          
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
