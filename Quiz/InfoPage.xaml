@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.InfoPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#FFFFFF"
+             Title="InfoPage"
+             >
+    <VerticalStackLayout>
+        <Image
+                Source="icon_dark"
+                WidthRequest="50"
+                Margin="25, 20, 0, 120"
+                HorizontalOptions="Start"/>
+
+        <Label
+            Text="Informations:"
+            TextColor="#2F2F2F"
+            FontSize="34"
+            FontFamily="Itim"
+            HorizontalOptions="Center"
+            Margin="0, 0, 0, 40"/>
+
+        <Label
+            Text="You need to hit the right answers of country flags."
+            TextColor="#2F2F2F"
+            FontFamily="Itim"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            Margin="100, 0"
+            />
+
+        <Label
+            Text="The game consist of 5 questions, and 1 minute limit to answer all of them"
+            TextColor="#2F2F2F"
+            FontFamily="Itim"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            Margin="100, 0"/>
+
+        <Button
+                x:Name="btnInfoPage"
+                Clicked="btnInfoPage_Clicked"
+                Text="Next"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, 60, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"/>
+    </VerticalStackLayout>
+</ContentPage>

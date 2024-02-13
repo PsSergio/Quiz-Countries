@@ -6,11 +6,14 @@
              BackgroundColor="#FFFFFF"
              Title="UserInfoPage">
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout
+            Padding="30, 0"
+            Margin="0, 25"
+            >
             <Image
                 Source="icon_dark"
                 WidthRequest="50"
-                Margin="25, 20, 0, 70"
+                Margin="25, 20, 0, 120"
                 HorizontalOptions="Start"/>
 
             <Label
@@ -20,11 +23,62 @@
                 FontSize="28"
                 HorizontalOptions="Center"/>
 
-            <Entry
-                Placeholder="Name"
+            <Frame
+                x:Name="frameName"
+                Margin="10"
+                Padding="10, 0"
+                BorderColor="#2F2F2F"
                 HorizontalOptions="Center"
+                >
+
+            <Entry
+                WidthRequest="270"
+                Placeholder="Name"
+                HorizontalOptions="Start"
                 TextColor="#2F2F2F"
-                x:Name="nomeUser"/>
+                x:Name="nameUser"/>
+
+            </Frame>
+
+            <Label
+                Text="How old are you?"
+                TextColor="#2F2F2F"
+                FontFamily="Itim"
+                FontSize="28"
+                HorizontalOptions="Center"
+                Margin="0, 40, 0, 0"/>
+
+            <Frame
+                x:Name="framaAge"
+                Margin="10"
+                Padding="10, 0"
+                BorderColor="#2F2F2F"
+                HorizontalOptions="Center"
+                >
+
+            <Entry
+                WidthRequest="270"
+                Placeholder="Age"
+                HorizontalOptions="Start"
+                TextColor="#2F2F2F"
+                x:Name="ageUser"
+                Keyboard="Numeric"/>
+
+            </Frame>
+
+            <Button
+                x:Name="btnUser"
+                Clicked="btnUser_Clicked"
+                Text="Next"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, 50, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
