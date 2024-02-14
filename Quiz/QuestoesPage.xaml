@@ -9,6 +9,7 @@
     <VerticalStackLayout>
 
         <Image
+            
                 Source="icon_dark"
                 WidthRequest="50"
                 Margin="25, 20, 0, 4"
@@ -50,6 +51,7 @@
             Margin="0, 20"/>
 
         <Image
+            x:Name="imgQuestion"
             Source="question1_flag"
             HorizontalOptions="Center"
             Margin="0, 0, 20, 0"/>
@@ -59,40 +61,48 @@
             Margin="40, 20">
             
             <RadioButton
+                x:Name="ans1"
             Content="Uruguai"
             FontFamily="Itim"
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            IsChecked="False"
+            CheckedChanged="verificarResposta"
+            Value="wrong"
             />
 
             <RadioButton
+                x:Name="ans2"
             Content="Brazil"
             FontFamily="Itim"
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            IsChecked="False"
+            CheckedChanged="verificarResposta"
+            Value="correct"
             />
 
             <RadioButton
+                x:Name="ans3"
             Content="USA"
             FontFamily="Itim"
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            IsChecked="False"
+            CheckedChanged="verificarResposta"
+            Value="wrong"
             />
 
             <RadioButton
+                x:Name="ans4"
             Content="Kenya"
             FontFamily="Itim"
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            IsChecked="False"
+            CheckedChanged="verificarResposta"
             
+            Value="wrong"
             />
 
             <Button

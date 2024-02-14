@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Quiz.QuestoesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = QuestoesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = QuestoesPage.xaml
 
+[/Users/paulosergio/Documents/Mobile /Quiz-Countries/Quiz/ReportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Quiz.ReportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ReportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ReportPage.xaml
+
 [/Users/paulosergio/Documents/Mobile /Quiz-Countries/Quiz/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Resources.Styles.Colors.xaml
