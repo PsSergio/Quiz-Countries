@@ -197,6 +197,52 @@
           }
         }
       },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2119,6 +2165,52 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -4047,6 +4139,52 @@
           }
         }
       },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -5969,6 +6107,52 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -7897,6 +8081,52 @@
           }
         }
       },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9819,6 +10049,52 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -11747,6 +12023,52 @@
           }
         }
       },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13658,6 +13980,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -13840,6 +14208,52 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -14026,6 +14440,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -14208,6 +14668,52 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -14394,6 +14900,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -14576,6 +15128,52 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -14762,6 +15360,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1": {
@@ -14944,6 +15588,52 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -15130,6 +15820,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
@@ -15312,6 +16048,52 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -15498,6 +16280,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
@@ -15680,6 +16508,52 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -15866,6 +16740,52 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
@@ -16048,6 +16968,52 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/24.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Buttons/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/24.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "24.2.5"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16407,6 +17373,130 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
         "microsoft.maui.graphics.7.0.101.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/24.2.5": {
+      "sha512": "VY/B0h5KfY2M0E5NQKnFkGO+lTsIuK2MInqfgnZiRiUbc6qOVYryOQWKpytXTy7S/JzD5SxbalHG9dpi6nmeWg==",
+      "type": "package",
+      "path": "syncfusion.licensing/24.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.24.2.5.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Buttons/24.2.5": {
+      "sha512": "6Orn74b8D+YnluUiPuYXQd0ifcovE19AZsM484RNH0qULOZ7I1mWe2pIxNNmRCdcinKsBx5AwNFl+FI6RjwPSQ==",
+      "type": "package",
+      "path": "syncfusion.maui.buttons/24.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Buttons.xml",
+        "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Buttons.xml",
+        "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net7.0/Syncfusion.Maui.Buttons.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net7.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net7.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net8.0-android34.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Buttons.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Buttons.xml",
+        "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Buttons.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Buttons.xml",
+        "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "lib/net8.0/Syncfusion.Maui.Buttons.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Buttons.dll",
+        "lib/net8.0/Syncfusion.Maui.Buttons.xml",
+        "lib/net8.0/en-US/Syncfusion.Maui.Buttons.resources.dll",
+        "syncfusion.maui.buttons.24.2.5.nupkg.sha512",
+        "syncfusion.maui.buttons.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Core/24.2.5": {
+      "sha512": "zgt6OaxLheC3IZuqWyUExJnma704hT0or20iOj6a6Lv8gNr18xyEFpzSHorEnpiO+jEm+nktdVLvLSdArn9egw==",
+      "type": "package",
+      "path": "syncfusion.maui.core/24.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/CarouselStyles.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/CarouselStyles.xbf",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/Resources.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/Resources.xbf",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/CarouselStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/CarouselStyles.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/Resources.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Carousel/Platform/Windows/Resources.xbf",
+        "lib/net8.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.24.2.5.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -18414,6 +19504,7 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
+      "Syncfusion.Maui.Buttons >= 24.2.5",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -18431,14 +19522,16 @@
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.101"
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Syncfusion.Maui.Buttons >= 24.2.5"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.101"
+      "Microsoft.Maui.Graphics >= 7.0.101",
+      "Syncfusion.Maui.Buttons >= 24.2.5"
     ]
   },
   "packageFolders": {
@@ -18513,6 +19606,10 @@
             "target": "Package",
             "version": "[7.0.101, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Buttons": {
+            "target": "Package",
+            "version": "[24.2.5, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -18626,6 +19723,10 @@
             "target": "Package",
             "version": "[7.0.101, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Buttons": {
+            "target": "Package",
+            "version": "[24.2.5, )"
           }
         },
         "imports": [
@@ -18684,6 +19785,10 @@
             "target": "Package",
             "version": "[7.0.101, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Buttons": {
+            "target": "Package",
+            "version": "[24.2.5, )"
           }
         },
         "imports": [

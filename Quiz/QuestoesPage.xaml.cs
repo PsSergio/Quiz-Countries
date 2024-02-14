@@ -1,13 +1,18 @@
-﻿namespace Quiz;
+﻿
+using Android.App;
+using Android.OS;
+
+namespace Quiz;
 
 public partial class QuestoesPage : ContentPage
 {
 	public QuestoesPage()
 	{
+		
 		InitializeComponent();
 	}
 
-	protected override void OnAppearing()
+    protected override void OnAppearing()
 	{
 		base.OnAppearing();
 
@@ -70,7 +75,13 @@ public partial class QuestoesPage : ContentPage
 
 	}
 
+    void btnNextQuestion_Clicked(System.Object sender, System.EventArgs e)
+    {
+    }
 
+    void RadioButton_CheckedChanged(System.Object sender, Microsoft.Maui.Controls.CheckedChangedEventArgs e)
+    {
+    }
 
 
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ov0wL57EVq5FPFoymJHdZYHzU5QRSt1H2zoCOLBb+qZaWcw2zTj9SRVmDdOQ5oJoccn7ng5AIR+APXDsqIn9fw==",
+  "dgSpecHash": "getKsbJqVJOFIK/52oBy1zRpC1mVIgu1jFkFrwcDvaJJtuQbOtc3RLzIJeb+awdHoICEuz3oCspFuxBXQV5nAA==",
   "success": true,
   "projectFilePath": "/Users/paulosergio/Documents/Mobile /Quiz-Countries/Quiz/Quiz.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,9 @@
     "/Users/paulosergio/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/paulosergio/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/paulosergio/.nuget/packages/microsoft.maui.graphics/7.0.101/microsoft.maui.graphics.7.0.101.nupkg.sha512",
+    "/Users/paulosergio/.nuget/packages/syncfusion.licensing/24.2.5/syncfusion.licensing.24.2.5.nupkg.sha512",
+    "/Users/paulosergio/.nuget/packages/syncfusion.maui.buttons/24.2.5/syncfusion.maui.buttons.24.2.5.nupkg.sha512",
+    "/Users/paulosergio/.nuget/packages/syncfusion.maui.core/24.2.5/syncfusion.maui.core.24.2.5.nupkg.sha512",
     "/Users/paulosergio/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/paulosergio/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/paulosergio/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

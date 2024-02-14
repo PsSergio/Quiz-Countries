@@ -74,6 +74,10 @@
               "version": "[7.0.101, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.5, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -186,6 +190,10 @@
               "target": "Package",
               "version": "[7.0.101, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.5, )"
             }
           },
           "imports": [
@@ -244,6 +252,10 @@
               "target": "Package",
               "version": "[7.0.101, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.5, )"
             }
           },
           "imports": [

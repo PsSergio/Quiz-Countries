@@ -1,20 +1,33 @@
 ﻿<Properties StartupConfiguration="{70EC694F-3B1F-4276-B7F1-32B45F0184F4}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz/QuestoesPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz/Resources/Styles/Styles.xaml">
     <Files>
-      <File FileName="Quiz/QuestoesPage.xaml" Line="32" Column="13" />
-      <File FileName="Quiz/QuestoesPage.xaml.cs" Line="32" Column="18" />
-      <File FileName="Quiz/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="Quiz/QuestoesPage.xaml" Line="93" Column="30" />
+      <File FileName="Quiz/Resources/Styles/Styles.xaml" Line="230" Column="37" />
+      <File FileName="Quiz/InfoPage.xaml" Line="41" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Quiz">
+          <Node name="Quiz" expanded="True">
             <Node name="Quiz">
-              <Node name="Resources" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="QuestoesPage.xaml" expanded="True" selected="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="Resources" expanded="True">
+                    <Node name="values" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="MacCatalyst" expanded="True" />
+                <Node name="Tizen" expanded="True" />
+                <Node name="Windows" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Styles" expanded="True">
+                  <Node name="Styles.xaml" selected="True" />
+                </Node>
+              </Node>
               <Node name="UserInfoPage.xaml" expanded="True" />
             </Node>
           </Node>
@@ -23,9 +36,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.cb3904c8" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Quiz PreferredExecutionTarget="Android.cb3904c8" Xamarin.HotReload.UnhandledDeviceException.Quiz.HideInfoBar="True" />
+  <MonoDevelop.Ide.ItemProperties.Quiz PreferredExecutionTarget="Android.pixel_5_-_api_33" Xamarin.HotReload.UnhandledDeviceException.Quiz.HideInfoBar="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -5,6 +5,7 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="#FFFFFF"
              Title="QuestoesPage">
+
     <VerticalStackLayout>
 
         <Image
@@ -17,15 +18,16 @@
             HorizontalOptions="Fill"
             Margin="25, 0">
 
-            <ProgressBar
+             <ProgressBar
             x:Name="timeBar"
             Progress="0"
             ProgressColor="#2F2F2F"
             Margin="0, 0, 20, 0"
             HorizontalOptions="Fill"
             WidthRequest="270"
-            
-            BackgroundColor="#BEBEBE"/>
+            HeightRequest="4"
+            BackgroundColor="#BEBEBE"
+            />
 
             <Label
                 x:Name="labelTime"
@@ -35,7 +37,7 @@
                 FontSize="27"/>
 
         </HorizontalStackLayout>
-        
+
         <!--Questions-->
 
         <Label
@@ -44,7 +46,74 @@
             HorizontalOptions="Center"
             FontFamily="Itim"
             TextColor="#2F2F2F"
-            FontSize="32"/>
+            FontSize="27"
+            Margin="0, 20"/>
+
+        <Image
+            Source="question1_flag"
+            HorizontalOptions="Center"
+            Margin="0, 0, 20, 0"/>
+
+        <StackLayout
+            RadioButtonGroup.GroupName="AnswersRadio"
+            Margin="40, 20">
+            
+            <RadioButton
+            Content="Uruguai"
+            FontFamily="Itim"
+            TextColor="#2F2F2F"
+            BorderColor="#2F2F2F"
+            FontSize="20"
+            IsChecked="False"
+            />
+
+            <RadioButton
+            Content="Brazil"
+            FontFamily="Itim"
+            TextColor="#2F2F2F"
+            BorderColor="#2F2F2F"
+            FontSize="20"
+            IsChecked="False"
+            />
+
+            <RadioButton
+            Content="USA"
+            FontFamily="Itim"
+            TextColor="#2F2F2F"
+            BorderColor="#2F2F2F"
+            FontSize="20"
+            IsChecked="False"
+            />
+
+            <RadioButton
+            Content="Kenya"
+            FontFamily="Itim"
+            TextColor="#2F2F2F"
+            BorderColor="#2F2F2F"
+            FontSize="20"
+            IsChecked="False"
+            
+            />
+
+            <Button
+                x:Name="btnNextQuestion"
+                Clicked="btnNextQuestion_Clicked"
+                Text="Next"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, 60, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"
+                />
+
+        </StackLayout>
+        
+
+
 
 
     </VerticalStackLayout>
