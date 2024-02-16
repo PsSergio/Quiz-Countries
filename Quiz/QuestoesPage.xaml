@@ -4,7 +4,9 @@
              x:Class="Quiz.QuestoesPage"
              Shell.NavBarIsVisible="False"
              BackgroundColor="#FFFFFF"
-             Title="QuestoesPage">
+             Title="QuestoesPage"
+            NavigationPage.HasBackButton = "false">
+
 
     <VerticalStackLayout>
 

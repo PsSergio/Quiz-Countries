@@ -16,7 +16,9 @@ public partial class QuestoesPage : ContentPage
 	{
 		base.OnAppearing();
 
-		ProgressValidation();
+		
+
+        ProgressValidation();
 		TimeValidation();
 	}
 
@@ -162,5 +164,10 @@ public partial class QuestoesPage : ContentPage
 		}
 		
 
+    }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
     }
 }

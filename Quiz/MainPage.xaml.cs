@@ -23,6 +23,11 @@ public partial class MainPage : ContentPage
         await Navigation.PushAsync(new UserInfoPage());
 
     }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
+    }
 }
 
 

@@ -4,7 +4,8 @@
              x:Class="Quiz.ReportPage"
              Shell.NavBarIsVisible="False"
              BackgroundColor="#FFFFFF"
-             Title="ReportPage">
+             Title="ReportPage"
+             NavigationPage.HasBackButton = "false">
     <VerticalStackLayout>
         <Image
             

@@ -40,6 +40,8 @@ public partial class ReportPage : ContentPage
     {
         base.OnAppearing();
 
+        
+
         pegaDadosUser();
 
         validacaoQuestoes();
@@ -55,5 +57,10 @@ public partial class ReportPage : ContentPage
 
         await Navigation.PushAsync(new MainPage());
 
+    }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
     }
 }

@@ -13,4 +13,9 @@ public partial class InfoPage : ContentPage
 		await Navigation.PushAsync(new QuestoesPage());
 
     }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
+    }
 }
