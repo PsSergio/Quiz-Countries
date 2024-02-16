@@ -24,4 +24,8 @@ public partial class ReportPage : ContentPage
 
 
     }
+
+    void btnBackHome_Clicked(System.Object sender, System.EventArgs e)
+    {
+    }
 }

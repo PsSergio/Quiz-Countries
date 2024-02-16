@@ -17,7 +17,7 @@
                 HorizontalOptions="Start"/>
 
             <Label
-                Text="What is your name?"
+                Text="What's your name?"
                 TextColor="#2F2F2F"
                 FontFamily="Itim"
                 FontSize="28"

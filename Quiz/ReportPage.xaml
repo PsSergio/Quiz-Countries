@@ -19,7 +19,7 @@
             FontSize="34"
             FontFamily="Itim"
             HorizontalOptions="Center"
-            Margin="0, 0, 0, 50"/>
+            Margin="0, 0, 0, 30"/>
 
         <VerticalStackLayout
             Margin="30, 0">
@@ -47,11 +47,11 @@
             />
 
         <HorizontalStackLayout
-                Margin="0, 40"
+                Margin="0, 20"
                 >
 
                 <VerticalStackLayout
-                    Margin="0, 0, 40, 0">
+                    Margin="0, 0, 50, 0">
 
                     <Label
                     
@@ -59,7 +59,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
                     />
 
                     <Label
@@ -68,7 +68,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                     />
 
@@ -78,7 +78,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                     />
 
@@ -88,7 +88,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                     />
 
@@ -105,7 +105,7 @@
                 </VerticalStackLayout>
                 
                 <VerticalStackLayout
-                    Margin="0, 0, 40, 0">
+                    Margin="0, 0, 50, 0">
 
                     <Label
                     x:Name="q1Report"
@@ -113,7 +113,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -123,7 +123,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -133,7 +133,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -143,7 +143,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -168,7 +168,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -178,7 +178,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -188,7 +188,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -198,7 +198,7 @@
                     TextColor="#2F2F2F"
                     FontFamily="Itim"
                     FontSize="24"
-                    Margin="0, 0, 0, 20"
+                    Margin="0, 0, 0, 10"
 
                 />
 
@@ -223,6 +223,29 @@
             X1="320"
             Stroke="#2F2F2F"
             />
+
+            <Label
+                x:Name="totalPoints"
+                Text="Total: "
+                TextColor="#2F2F2F"
+                FontFamily="Itim"
+                FontSize="24"
+                Margin="0, 10, 0, 20"/>
+
+            <Button
+                x:Name="btnBackHome"
+                Clicked="btnBackHome_Clicked"
+                Text="Back"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, 60, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"
+                />
 
         </VerticalStackLayout>
         

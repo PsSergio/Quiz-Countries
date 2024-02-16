@@ -94,14 +94,6 @@ public partial class QuestoesPage : ContentPage
 			ans3.Content = "Saudi Arabia";
 			ans2.Content = "Germany";
 			ans4.Content = "Japan";
-
-			//ans1.Value = "wrong";
-			//ans3.Value = "correct";
-			//ans2.Value = "wrong";
-			//ans4.Value = "wrong";
-
-
-
 		}
 		else if (countQuestions == 2)
         {
@@ -114,10 +106,6 @@ public partial class QuestoesPage : ContentPage
             ans3.Content = "Colombia";
             ans4.Content = "England";
 
-            //ans1.Value = "wrong";
-            //ans2.Value = "wrong";
-            //ans3.Value = "wrong";
-            //ans4.Value = "correct";
         }
         else if (countQuestions == 3)
         {
@@ -130,10 +118,6 @@ public partial class QuestoesPage : ContentPage
             ans3.Content = "Poland";
             ans4.Content = "Argentina";
 
-            //ans1.Value = "correct";
-            //ans2.Value = "wrong";
-            //ans3.Value = "wrong";
-            //ans4.Value = "wrong";
         }
         else if (countQuestions == 4)
         {
@@ -145,11 +129,6 @@ public partial class QuestoesPage : ContentPage
             ans2.Content = "Qatar";
             ans3.Content = "Ghana";
             ans4.Content = "Nepal";
-
-            //ans1.Value = "wrong";
-            //ans2.Value = "correct";
-            //ans3.Value = "wrong";
-            //ans4.Value = "wrong";
 
 			
         }else if(countQuestions == 5)
@@ -171,26 +150,6 @@ public partial class QuestoesPage : ContentPage
 
     private void verificarResposta(System.Object sender)
 	{
-		//if (marcou)
-		//{
-		//	marcou = false;
-		//}
-		//else
-		//{
-		//	RadioButton opcao = sender as RadioButton;
-		//	string valorOpcao = opcao.Value.ToString();
-
-		//	if (valorOpcao.Contains("correct"))
-		//	{
-		//		isCorrect = true;
-		//	}
-		//	else
-		//	{
-		//		isCorrect = false;
-		//	}
-
-		//	marcou = true;
-		//}
 
 		RadioButton opcaoCorreta = sender as RadioButton;
 		if(opcaoCorreta.IsChecked)
