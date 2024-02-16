@@ -9,9 +9,11 @@ public partial class ReportPage : ContentPage
 
 	}
 
-    private void pegaDadosUser()
+    private async void pegaDadosUser()
     {
 
+        getName.Text += await SecureStorage.GetAsync("nameUser");
+        getAge.Text += await SecureStorage.GetAsync("ageUser");
 
 
     }
@@ -20,8 +22,9 @@ public partial class ReportPage : ContentPage
     {
         base.OnAppearing();
 
-        //labelTotal.Text = await SecureStorage.Default.GetAsync("totalPoints");
+        pegaDadosUser();
 
+        totalPoints.Text += await SecureStorage.GetAsync("totalPoints");
 
     }
 

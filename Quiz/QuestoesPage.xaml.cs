@@ -97,7 +97,7 @@ public partial class QuestoesPage : ContentPage
 		}
 		else if (countQuestions == 2)
         {
-            verificarResposta(ans2);
+            verificarResposta(ans3);
 
             imgQuestion.Source = "question3_flag";
 
@@ -140,12 +140,6 @@ public partial class QuestoesPage : ContentPage
             await Navigation.PushAsync(new ReportPage());
         }
 
-
-        if (isCorrect)
-		{
-			totalPoints++;
-		}
-
     }
 
     private void verificarResposta(System.Object sender)
@@ -155,6 +149,7 @@ public partial class QuestoesPage : ContentPage
 		if(opcaoCorreta.IsChecked)
 		{
 			isCorrect = true;
+			totalPoints++;
 		}
 		else
 		{
