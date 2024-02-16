@@ -77,7 +77,9 @@ public partial class QuestoesPage : ContentPage
 
 	int countQuestions = 0;
 	int totalPoints = 0;
-	bool isCorrect = false, marcou = false;
+	bool isCorrect = false;
+	
+	
 
     async void btnNextQuestion_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -86,7 +88,7 @@ public partial class QuestoesPage : ContentPage
 
 		if (countQuestions == 1)
 		{
-            verificarResposta(ans2);
+            verificarResposta(ans2, 1);
 
             imgQuestion.Source = "question2_flag";
 
@@ -97,7 +99,7 @@ public partial class QuestoesPage : ContentPage
 		}
 		else if (countQuestions == 2)
         {
-            verificarResposta(ans3);
+            verificarResposta(ans3, 2);
 
             imgQuestion.Source = "question3_flag";
 
@@ -109,7 +111,7 @@ public partial class QuestoesPage : ContentPage
         }
         else if (countQuestions == 3)
         {
-            verificarResposta(ans4);
+            verificarResposta(ans4, 3);
 
             imgQuestion.Source = "question4_flag";
 
@@ -121,7 +123,7 @@ public partial class QuestoesPage : ContentPage
         }
         else if (countQuestions == 4)
         {
-            verificarResposta(ans1);
+            verificarResposta(ans1, 4);
 
             imgQuestion.Source = "question5_flag";
 
@@ -133,7 +135,7 @@ public partial class QuestoesPage : ContentPage
 			
         }else if(countQuestions == 5)
 		{
-            verificarResposta(ans2);
+            verificarResposta(ans2, 5);
 
             await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
 
@@ -142,18 +144,21 @@ public partial class QuestoesPage : ContentPage
 
     }
 
-    private void verificarResposta(System.Object sender)
+    private async void verificarResposta(System.Object sender, int numQuestao)
 	{
 
 		RadioButton opcaoCorreta = sender as RadioButton;
 		if(opcaoCorreta.IsChecked)
 		{
 			isCorrect = true;
-			totalPoints++;
+            totalPoints++;
+			await SecureStorage.SetAsync((numQuestao-1).ToString(), "Correct");
+
 		}
 		else
 		{
-			isCorrect = false;
+            await SecureStorage.SetAsync((numQuestao-1).ToString(), "Wrong");
+            isCorrect = false;
 		}
 		
 
