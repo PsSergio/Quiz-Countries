@@ -67,7 +67,7 @@
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            CheckedChanged="verificarResposta"
+            
             Value="wrong"
             />
 
@@ -78,7 +78,7 @@
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            CheckedChanged="verificarResposta"
+            
             Value="correct"
             />
 
@@ -89,7 +89,7 @@
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            CheckedChanged="verificarResposta"
+            
             Value="wrong"
             />
 
@@ -100,7 +100,7 @@
             TextColor="#2F2F2F"
             BorderColor="#2F2F2F"
             FontSize="20"
-            CheckedChanged="verificarResposta"
+            
             
             Value="wrong"
             />

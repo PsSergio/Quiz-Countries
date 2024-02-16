@@ -82,23 +82,31 @@ public partial class QuestoesPage : ContentPage
     async void btnNextQuestion_Clicked(System.Object sender, System.EventArgs e)
     {
 
-        if (countQuestions == 1)
+        countQuestions++;
+
+		if (countQuestions == 1)
 		{
-			imgQuestion.Source = "question2_flag";
+            verificarResposta(ans2);
+
+            imgQuestion.Source = "question2_flag";
 
 			ans1.Content = "England";
 			ans3.Content = "Saudi Arabia";
 			ans2.Content = "Germany";
 			ans4.Content = "Japan";
 
-			ans1.Value = "wrong";
-			ans3.Value = "correct";
-			ans2.Value = "wrong";
-			ans4.Value = "wrong";
+			//ans1.Value = "wrong";
+			//ans3.Value = "correct";
+			//ans2.Value = "wrong";
+			//ans4.Value = "wrong";
 
 
-		}else if (countQuestions == 2)
-		{
+
+		}
+		else if (countQuestions == 2)
+        {
+            verificarResposta(ans2);
+
             imgQuestion.Source = "question3_flag";
 
             ans1.Content = "Tanzania";
@@ -106,13 +114,15 @@ public partial class QuestoesPage : ContentPage
             ans3.Content = "Colombia";
             ans4.Content = "England";
 
-            ans1.Value = "wrong";
-            ans2.Value = "wrong";
-            ans3.Value = "wrong";
-            ans4.Value = "correct";
+            //ans1.Value = "wrong";
+            //ans2.Value = "wrong";
+            //ans3.Value = "wrong";
+            //ans4.Value = "correct";
         }
         else if (countQuestions == 3)
         {
+            verificarResposta(ans4);
+
             imgQuestion.Source = "question4_flag";
 
             ans1.Content = "Kenya";
@@ -120,13 +130,15 @@ public partial class QuestoesPage : ContentPage
             ans3.Content = "Poland";
             ans4.Content = "Argentina";
 
-            ans1.Value = "correct";
-            ans2.Value = "wrong";
-            ans3.Value = "wrong";
-            ans4.Value = "wrong";
+            //ans1.Value = "correct";
+            //ans2.Value = "wrong";
+            //ans3.Value = "wrong";
+            //ans4.Value = "wrong";
         }
         else if (countQuestions == 4)
         {
+            verificarResposta(ans1);
+
             imgQuestion.Source = "question5_flag";
 
             ans1.Content = "Canada";
@@ -134,20 +146,21 @@ public partial class QuestoesPage : ContentPage
             ans3.Content = "Ghana";
             ans4.Content = "Nepal";
 
-            ans1.Value = "wrong";
-            ans2.Value = "correct";
-            ans3.Value = "wrong";
-            ans4.Value = "wrong";
+            //ans1.Value = "wrong";
+            //ans2.Value = "correct";
+            //ans3.Value = "wrong";
+            //ans4.Value = "wrong";
 
 			
         }else if(countQuestions == 5)
 		{
+            verificarResposta(ans2);
+
             await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
 
             await Navigation.PushAsync(new ReportPage());
         }
 
-        countQuestions++;
 
         if (isCorrect)
 		{
@@ -156,28 +169,39 @@ public partial class QuestoesPage : ContentPage
 
     }
 
-    private void verificarResposta(System.Object sender, System.EventArgs e)
+    private void verificarResposta(System.Object sender)
 	{
-		if (marcou)
+		//if (marcou)
+		//{
+		//	marcou = false;
+		//}
+		//else
+		//{
+		//	RadioButton opcao = sender as RadioButton;
+		//	string valorOpcao = opcao.Value.ToString();
+
+		//	if (valorOpcao.Contains("correct"))
+		//	{
+		//		isCorrect = true;
+		//	}
+		//	else
+		//	{
+		//		isCorrect = false;
+		//	}
+
+		//	marcou = true;
+		//}
+
+		RadioButton opcaoCorreta = sender as RadioButton;
+		if(opcaoCorreta.IsChecked)
 		{
-			marcou = false;
+			isCorrect = true;
 		}
 		else
 		{
-			RadioButton opcao = sender as RadioButton;
-			string valorOpcao = opcao.Value.ToString();
-
-			if (valorOpcao.Contains("correct"))
-			{
-				isCorrect = true;
-			}
-			else
-			{
-				isCorrect = false;
-			}
-
-			marcou = true;
+			isCorrect = false;
 		}
-        
+		
+
     }
 }
