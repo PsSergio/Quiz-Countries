@@ -5,7 +5,7 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="#FFFFFF"
              Title="ReportPage"
-             NavigationPage.HasBackButton = "false">
+             >
     <VerticalStackLayout>
         <Image
             

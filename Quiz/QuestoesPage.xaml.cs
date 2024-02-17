@@ -12,26 +12,39 @@ public partial class QuestoesPage : ContentPage
 		InitializeComponent();
 	}
 
-	protected override void OnAppearing()
+    int countQuestions = 0;
+    int totalPoints = 0;
+    bool isCorrect = false, stopRunning = false;
+
+    protected override void OnAppearing()
 	{
 		base.OnAppearing();
-
-		
 
         ProgressValidation();
 		TimeValidation();
 	}
 
-	private async void ProgressValidation()
-	{
+    bool timeExpired = false; // false
 
-		bool timeExpired = false; // false
+    private async void ProgressValidation()
+	{
 
 		await timeBar.ProgressTo(1, 60000, Easing.Linear);
 
-		timeExpired = true;
+    }
 
-	}
+	private async void TimeOutValidation()
+	{
+        if (timeExpired && !stopRunning)
+        {
+			TimeSpan vibrationTime = TimeSpan.FromSeconds(1);
+
+            Vibration.Default.Vibrate(vibrationTime);
+
+            await Navigation.PushAsync(new TimeOutPage());
+
+        }
+    }
 
 	private async void TimeValidation()
 	{
@@ -74,14 +87,12 @@ public partial class QuestoesPage : ContentPage
 
 		}
 
+        timeExpired = true;
 
-	}
+        TimeOutValidation();
 
-	int countQuestions = 0;
-	int totalPoints = 0;
-	bool isCorrect = false;
-	
-	
+
+    }
 
     async void btnNextQuestion_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -140,6 +151,8 @@ public partial class QuestoesPage : ContentPage
             verificarResposta(ans2, 5);
 
             await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
+
+            stopRunning = true;
 
             await Navigation.PushAsync(new ReportPage());
         }
