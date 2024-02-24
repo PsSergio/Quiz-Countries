@@ -24,7 +24,7 @@ public partial class QuestoesPage : ContentPage
 		TimeValidation();
 	}
 
-    bool timeExpired = false; // false
+    bool timeExpired = false; 
 
     private async void ProgressValidation()
 	{
@@ -40,6 +40,8 @@ public partial class QuestoesPage : ContentPage
 			TimeSpan vibrationTime = TimeSpan.FromSeconds(1);
 
             Vibration.Default.Vibrate(vibrationTime);
+
+            await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
 
             await Navigation.PushAsync(new TimeOutPage());
 
@@ -99,64 +101,72 @@ public partial class QuestoesPage : ContentPage
 
         countQuestions++;
 
-		if (countQuestions == 1)
-		{
-            verificarResposta(ans2, 1);
-
-            imgQuestion.Source = "question2_flag";
-
-			ans1.Content = "England";
-			ans3.Content = "Saudi Arabia";
-			ans2.Content = "Germany";
-			ans4.Content = "Japan";
-		}
-		else if (countQuestions == 2)
+        switch (countQuestions)
         {
-            verificarResposta(ans3, 2);
 
-            imgQuestion.Source = "question3_flag";
+            case 1: {
+                verificarResposta(ans2, 1);
 
-            ans1.Content = "Tanzania";
-            ans2.Content = "Italy";
-            ans3.Content = "Colombia";
-            ans4.Content = "England";
+                imgQuestion.Source = "question2_flag";
 
+                ans1.Content = "England";
+                ans3.Content = "Saudi Arabia";
+                ans2.Content = "Germany";
+                ans4.Content = "Japan";
+                break;
+            }
+
+            case 2:
+            {
+                verificarResposta(ans3, 2);
+
+                imgQuestion.Source = "question3_flag";
+
+                ans1.Content = "Tanzania";
+                ans2.Content = "Italy";
+                ans3.Content = "Colombia";
+                ans4.Content = "England";
+                break;
+
+            }
+            case 3:
+            {
+                verificarResposta(ans4, 3);
+
+                imgQuestion.Source = "question4_flag";
+
+                ans1.Content = "Kenya";
+                ans2.Content = "South Korea";
+                ans3.Content = "Poland";
+                ans4.Content = "Argentina";
+                break;
+
+            }
+            case 4: 
+            {
+                verificarResposta(ans1, 4);
+
+                imgQuestion.Source = "question5_flag";
+
+                ans1.Content = "Canada";
+                ans2.Content = "Qatar";
+                ans3.Content = "Ghana";
+                ans4.Content = "Nepal";
+                break;
+
+
+            }case 5:
+            {
+                verificarResposta(ans2, 5);
+
+                await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
+
+                stopRunning = true;
+
+                await Navigation.PushAsync(new ReportPage());
+                break;
+            }
         }
-        else if (countQuestions == 3)
-        {
-            verificarResposta(ans4, 3);
-
-            imgQuestion.Source = "question4_flag";
-
-            ans1.Content = "Kenya";
-            ans2.Content = "South Korea";
-            ans3.Content = "Poland";
-            ans4.Content = "Argentina";
-
-        }
-        else if (countQuestions == 4)
-        {
-            verificarResposta(ans1, 4);
-
-            imgQuestion.Source = "question5_flag";
-
-            ans1.Content = "Canada";
-            ans2.Content = "Qatar";
-            ans3.Content = "Ghana";
-            ans4.Content = "Nepal";
-
-			
-        }else if(countQuestions == 5)
-		{
-            verificarResposta(ans2, 5);
-
-            await SecureStorage.SetAsync("totalPoints", totalPoints.ToString());
-
-            stopRunning = true;
-
-            await Navigation.PushAsync(new ReportPage());
-        }
-
     }
 
     private async void verificarResposta(System.Object sender, int numQuestao)

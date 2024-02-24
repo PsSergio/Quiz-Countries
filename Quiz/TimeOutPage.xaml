@@ -6,10 +6,41 @@
              Shell.NavBarIsVisible="False"
              BackgroundColor="#FFFFFF">
     <VerticalStackLayout>
-        <Label
 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Image
+                Source="icon_dark"
+                WidthRequest="50"
+                Margin="25, 20, 0, 100"
+                HorizontalOptions="Start"/>
+
+        <Label
+            Text="Time is over!"
+            TextColor="#2F2F2F"
+            FontSize="34"
+            FontFamily="Itim"
+            HorizontalOptions="Center"
+            Margin="0, 0, 0, 40"
+            />
+
+        <Image
+            Source="time_out"
+            HorizontalOptions="Center"
+            WidthRequest="221"
+            />
+
+        <Button
+                x:Name="btnTimeOut"
+                Clicked="btnTimeOut_Clicked"
+                Text="See results"
+                WidthRequest="200"
+                Padding="3"
+                Margin="0, 60, 0, 0"
+                BorderWidth="0"
+                CornerRadius="30"
+                FontSize="30"
+                FontFamily="Itim"
+                TextColor="White"
+                BackgroundColor="#2F2F2F"
+                />
     </VerticalStackLayout>
 </ContentPage>

@@ -20,18 +20,22 @@ public partial class ReportPage : ContentPage
 
     private async void validacaoQuestoes()
     {
-        
 
-        Label[] labelsReport = new Label[5];
-        labelsReport[0] = q1Report;
-        labelsReport[1] = q2Report;
-        labelsReport[2] = q3Report;
-        labelsReport[3] = q4Report;
-        labelsReport[4] = q5Report;
+        Label[] labelsReport = {q1Report, q2Report, q3Report, q4Report, q5Report};
 
         for(int i = 0; i <= 4; i++)
         {
-            labelsReport[i].Text = await SecureStorage.GetAsync(i.ToString());
+        
+            string temp = await SecureStorage.GetAsync(i.ToString());
+
+            if(temp == null || temp == "")
+            {
+                labelsReport[i].Text = "Wrong";
+            }
+            else
+            {
+                labelsReport[i].Text = temp;
+            }
         }
 
     }
@@ -39,8 +43,6 @@ public partial class ReportPage : ContentPage
     protected async override void OnAppearing()
     {
         base.OnAppearing();
-
-        
 
         pegaDadosUser();
 

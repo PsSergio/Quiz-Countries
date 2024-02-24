@@ -10821,8 +10821,9 @@ public final class R {
     public static final int question5_flag=0x7f0700d6;
     public static final int splash=0x7f0700d7;
     public static final int test_level_drawable=0x7f0700d8;
-    public static final int tooltip_frame_dark=0x7f0700d9;
-    public static final int tooltip_frame_light=0x7f0700da;
+    public static final int time_out=0x7f0700d9;
+    public static final int tooltip_frame_dark=0x7f0700da;
+    public static final int tooltip_frame_light=0x7f0700db;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

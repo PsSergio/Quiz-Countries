@@ -8287,10 +8287,13 @@ namespace Quiz
 			public const int test_level_drawable = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int tooltip_frame_dark = 2131165401;
+			public const int time_out = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int tooltip_frame_light = 2131165402;
+			public const int tooltip_frame_dark = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int tooltip_frame_light = 2131165403;
 			
 			static Drawable()
 			{

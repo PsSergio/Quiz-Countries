@@ -11,4 +11,9 @@ public partial class TimeOutPage : ContentPage
     {
         return true;
     }
+
+    void btnTimeOut_Clicked(System.Object sender, System.EventArgs e)
+    {
+        Navigation.PushAsync(new ReportPage());
+    }
 }
